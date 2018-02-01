@@ -51,7 +51,7 @@ section.module.parallax-3 {
   background-image: url("../img/3.jpg");
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 300px) {
   section.module h2 {
     text-align: center;
     font-size: 42px;
