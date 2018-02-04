@@ -6,7 +6,7 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Sacramento', cursive;
   font-size: 30px;
 }
 section.module p {
@@ -31,12 +31,8 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 28px;
   line-height: 600px;
-  font-weight: 700;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
   text-align: center;
@@ -59,6 +55,9 @@ section.module.parallax-3 {
   }
   section.module.parallax h1 {
     font-size: 33px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   section.module.parallax-2 {
     background-image: url("../img/22.jpg");
@@ -68,8 +67,16 @@ section.module.parallax-3 {
   }
 }
 @media all and (min-width: 960px) {
+  section.module h2 {
+    text-align: center;
+    font-size: 84px;
+  }
   section.module.parallax h1 {
     font-size: 50px;
+    font-family: 'Fredericka The Great', cursive;
+    color: rgba(0,0,0, 0.8);
+    font-weight: 100;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
   }
   section.module.parallax-2 {
     background-image: url("../img/2.jpg");

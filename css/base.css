@@ -80,8 +80,15 @@ body {
 }
 h3 {
   color: #787878;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 25px;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5;
+}
+h4 {
+  color: #787878;
+  font-family: 'Sacramento', cursive;
+  font-size: 20px;
   text-align: center;
   line-height: 1.5;
 }
